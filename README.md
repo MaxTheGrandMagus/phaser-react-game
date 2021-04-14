@@ -1,6 +1,6 @@
-# Phaser 3 React Webpack Project Template
+# Phaser 3 React Webpack Project
 
-Built from the [Phaser 3 Template](https://github.com/photonstorm/phaser3-project-template), this boilerplate gives you Phaser and React out of the box. Full details on [Integrating React and Phaser 3 Tutorial](https://medium.com/@Tnodes/integrating-react-and-phaser-3-tutorial-eb96717d4a9d).
+Built from the [Phaser 3 Template](https://github.com/photonstorm/phaser3-project-template), this boilerplate gives you Phaser and React out of the box.
 
 ES6 support via [Babel 7](https://babeljs.io/) and [Webpack 4](https://webpack.js.org/). Includes hot-reloading for development and production-ready builds.
 
@@ -8,7 +8,7 @@ Loading images via JavaScript module `import` is also supported.
 
 ## Quickstart
 
-`git clone https://github.com/nodes777/phaser3-react-template`
+`git clone https://github.com/MaxTheGrandMagus/phaser-react-game`
 `npm install`
 `npm start`
 
