@@ -1,0 +1,228 @@
+{
+    "anims": [
+        {
+            "key": "walk_up",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "male",
+                    "frame": "6.4run_0"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.4run_1"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.4run_2"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.4run_3"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.4run_4"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.4run_5"
+                }
+            ]
+        },
+        {
+            "key": "walk_left",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "male",
+                    "frame": "6.3run_0"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.3run_1"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.3run_2"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.3run_3"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.3run_4"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.3run_5"
+                }
+            ]
+        },
+        {
+            "key": "walk_right",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "male",
+                    "frame": "6.2run_0"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.2run_1"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.2run_2"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.2run_3"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.2run_4"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.2run_5"
+                }
+            ]
+        },
+        {
+            "key": "walk_down",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "male",
+                    "frame": "6.1run_0"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.1run_1"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.1run_2"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.1run_3"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.1run_4"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.1run_5"
+                }
+            ]
+        },
+        {
+            "key": "idle_up",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "male",
+                    "frame": "6.4idle_0"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.4idle_1"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.4idle_2"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.4idle_3"
+                }
+            ]
+        },
+        {
+            "key": "idle_left",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "male",
+                    "frame": "6.3idle_0"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.3idle_1"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.3idle_2"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.3idle_3"
+                }
+            ]
+        },
+        {
+            "key": "idle_right",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "male",
+                    "frame": "6.2idle_0"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.2idle_1"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.2idle_2"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.2idle_3"
+                }
+            ]
+        },
+        {
+            "key": "idle_down",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "male",
+                    "frame": "6.1idle_0"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.1idle_1"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.1idle_2"
+                },
+                {
+                    "key": "male",
+                    "frame": "6.1idle_3"
+                }
+            ]
+        }
+    ]
+}
