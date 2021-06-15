@@ -1,11 +1,12 @@
 import Phaser from "phaser";
-import { CST } from './CST';
-import MenuScene from "./menu-scene";
+import { CST } from '../CST';
+import MenuScene from "../scenes/menu-scene";
 
-import issykkul from "../assets/images/issyk-kul.png";
-import bluebutton from '../assets/images/buttons/blue/play.png';
-import redbutton from '../assets/images/buttons/red/play.png';
-import pressedbutton from '../assets/images/buttons/pressed/play.png';
+import issykkul from "../../assets/images/issyk-kul.png";
+import bluebutton from '../../assets/images/UI PACK/LargeButton/UI-03.png';
+import redbutton from '../../assets/images/UI PACK/LargeButton/UI-8.png';
+import pressedbutton from '../../assets/images/UI PACK/LargeButton/UI-04.png';
+import logo from '../../assets/images/logo.png';
 
 class LoadScene extends Phaser.Scene {
   constructor() {
@@ -22,6 +23,8 @@ class LoadScene extends Phaser.Scene {
     this.load.image('play_button', bluebutton);
     this.load.image('hover_button', redbutton);
     this.load.image('pressed_button', pressedbutton);
+
+    this.load.image('logo', logo);
 
     let loadingBar = this.add.graphics({
       fillStyle: {

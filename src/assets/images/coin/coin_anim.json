@@ -1,0 +1,24 @@
+{
+    "anims": [
+        {
+            "key": "coin_shine",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 2,
+            "frames": [
+                {
+                    "key": "coin",
+                    "frame": "coin_gold"
+                },
+                {
+                    "key": "coin",
+                    "frame": "coin_silver"
+                },
+                {
+                    "key": "coin",
+                    "frame": "coin_bronze"
+                }
+            ]
+        }
+    ]
+}

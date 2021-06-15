@@ -47,9 +47,11 @@
     "css-loader": "^5.0.0",
     "jsx-dom": "^7.0.1",
     "matter-js": "^0.17.1",
-    "phaser": "^3.17.0",
+    "phaser": "^3.55.2",
     "phaser-matter-collision-plugin": "^0.10.2",
+    "phaser3-rex-plugins": "^1.1.51",
     "react-redux": "^7.0.2",
+    "react-router-dom": "^5.2.0",
     "rxjs": "^7.1.0",
     "style-loader": "^2.0.0"
   }

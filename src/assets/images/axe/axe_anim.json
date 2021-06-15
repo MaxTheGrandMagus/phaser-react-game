@@ -1,0 +1,28 @@
+{
+    "anims": [
+        {
+            "key": "axe_shine",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 2,
+            "frames": [
+                {
+                    "key": "axe",
+                    "frame": "axe_bronze"
+                },
+                {
+                    "key": "axe",
+                    "frame": "axe_gold"
+                },
+                {
+                    "key": "axe",
+                    "frame": "axe_plat"
+                },
+                {
+                    "key": "axe",
+                    "frame": "axe_silver"
+                }
+            ]
+        }
+    ]
+}

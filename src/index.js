@@ -4,11 +4,14 @@ import App from "./components/App.jsx";
 
 import Phaser from "phaser";
 
-import LoadScene from './phaser/load-scene';
-import MenuScene from './phaser/menu-scene';
-import GameScene from "./phaser/game-scene";
+import LoadScene from './phaser/scenes/load-scene';
+import MenuScene from './phaser/scenes/menu-scene';
+import GameScene from './phaser/scenes/game-scene';
+import InfoScene from './phaser/scenes/info-scene';
 
 import PhaserMatterCollisionPlugin from "phaser-matter-collision-plugin";
+import RexUIPlugin from 'phaser3-rex-plugins/templates/ui/ui-plugin.js';
+
 
 export const config = {
   type: Phaser.AUTO,
@@ -16,10 +19,12 @@ export const config = {
   backgroundColor: '202020',  
   width: window.innerWidth,
   height: window.innerHeight,
-  scene: [LoadScene, GameScene],
+  scene: [
+    LoadScene, 
+    GameScene, 
+    InfoScene
+  ],
   scale: {
-    // mode: Phaser.Scale.MAX_ZOOM,
-    // autoCenter: Phaser.Scale.CENTER_BOTH, 
     zoom: 2
   },
   physics: {
@@ -35,7 +40,12 @@ export const config = {
         plugin: PhaserMatterCollisionPlugin,
         key: 'matterCollision',
         mapping: 'matterCollision'
-      }
+      },
+      {
+        key: 'rexUI',
+        plugin: RexUIPlugin,
+        mapping: 'rexUI'
+      },
     ]
   }
 };

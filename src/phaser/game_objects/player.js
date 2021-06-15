@@ -15,15 +15,17 @@ export default class Player extends Phaser.Physics.Matter.Sprite {
     this.setFixedRotation();
   }
 
+
   static preload(scene) {
-    scene.load.atlas('male', '/src/assets/npc/male.png', 'src/assets/npc/male_atlas.json');
-    scene.load.animation('male_anim', '/src/assets/npc/male_anim.json');
+    scene.load.atlas('male', 'src/assets/npc/male.png', 'src/assets/npc/male_atlas.json');
+    scene.load.animation('male_anim', 'src/assets/npc/male_anim.json');
   }
 
   get velocity() {
     return this.body.velocity;
   }
 
+  
   update() {
     const speed = 10;
 
